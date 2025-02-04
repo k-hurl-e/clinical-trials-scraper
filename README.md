@@ -39,6 +39,13 @@ This project is a Python-based scraper for extracting clinical trials data from 
 DATABASE_URL=postgresql://username:password@localhost:5432/your_db_name
 ```
 
+## Command-line Arguments
+`--condition`: Medical condition to search for.
+`--intervention`: Treatment/intervention to search for.
+`--other-terms`: Additional search terms to filter trials.
+`--max-trials`: Maximum number of trials to fetch.
+`--results-only`: Only fetch trials with results.
+
 ## Usage
 
 Run the scraper with the desired search parameters:
